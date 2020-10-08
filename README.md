@@ -1,5 +1,6 @@
 # Sarcasm-Detection
-This dataset has about 27,000 records. The training will be on the 20,000 records and the rest 7,000 will be used on the testing set.  
+
+Sarcasm detection from News Headlines websites, this dataset has about 27,000 records. The training will be on the 20,000 records and the rest 7,000 will be used on the testing set.  
 The data is loaded from this URL:  https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection. An array of sentences  and an array of labels is created, loading each headline as a sentence and the is sarcastic as the label. The corpus is splited into training and testing set. 
 
 Processing of the dataset:
@@ -17,26 +18,3 @@ Architecture of the model:
 
 The model is compiled with binary cross entropy as loss function and adam as optimizer.
 The model is trained for 30 epoches for the padded data and labels.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Sarcasm detection from News Headlines websites, the dataset can be found there: https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection. The results of ours classifier can be found there:  http://projector.tensorflow.org/
